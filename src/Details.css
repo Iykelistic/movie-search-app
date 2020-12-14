@@ -1,0 +1,165 @@
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    /*background: black;*/
+  }
+  .holder{
+    background: black;
+    height: 100%;
+  }
+  
+  .text__name{
+    color: white;
+    padding-top: 50px;
+    margin-top: 60px;
+    text-transform: uppercase;
+    margin-left: 214px;
+    margin-bottom: 20px;
+}
+  
+  
+  .card__holder{
+    display: flex;
+    margin-left: 20px;
+    margin-bottom: 5px;
+    justify-content: center;
+}
+  
+  .image{
+    width: 24%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+  }
+  .card__details{
+    font-size: 0.9em;
+    color: white;
+    margin-left: 30px; 
+    max-width: 600px;
+}
+.card__details h2{
+  margin-bottom: 10px;
+  margin-left: 30px;
+  padding-left: 30px;
+}
+.card__details h3{
+  margin-left: 30px;
+  padding-left: 30px;
+  margin-bottom: 5px;
+}
+.card__details h4{
+    margin-left: 30px;
+    padding-left: 30px;
+}
+
+.movie_button button{
+    margin-left: 56px;
+    min-width: 7vw;
+    outline: none;
+    min-height: 4vh;
+    background: #EF6C00;
+    border-radius: 20px;
+    color: white;
+    border-color: black;
+    margin-top: 10px;
+}
+
+.movie_button button:focus {
+  background-color: red;
+}
+
+@media only screen and (max-width: 600px) {
+  .holder {
+    background: black;
+    height: 138vh;
+    display: block;
+    margin-top: -20px;
+}
+.text__name {
+  color: white;
+  padding-top: 50px;
+  margin-top: 82px;
+  text-transform: uppercase;
+  margin-left: 65px;
+  margin-bottom: 20px;
+}
+.card__holder {
+  display: flex;
+  margin-left: -30px;
+  margin-bottom: 5px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.image {
+  width: 49%; 
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  margin-bottom: 20px;
+  margin-left: -5px;
+  height: 357px;
+}
+.movie_button button {
+  margin-left: 56px;
+  min-width: 23vw;
+  outline: none;
+  min-height: 4vh;
+  background: #EF6C00;
+  border-radius: 20px;
+  color: white;
+  border-color: black;
+  margin-top: 10px;
+}
+}
+
+@media only screen and (max-width: 400px) {
+  .holder {
+    background: black;
+    height: 185vh;
+    display: block;
+    margin-top: -20px;
+}
+.text__name {
+  color: white;
+  padding-top: 50px;
+  margin-top: 82px;
+  text-transform: uppercase;
+  margin-left: 65px;
+  margin-bottom: 20px;
+}
+.card__holder {
+  display: flex;
+  margin-left: -30px;
+  margin-bottom: 5px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.image {
+  width: 60%; 
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  margin-bottom: 20px;
+  margin-left: -5px;
+  height: 357px;
+}
+.movie_button button {
+  margin-left: 56px;
+  min-width: 23vw;
+  outline: none;
+  min-height: 4vh;
+  background: #EF6C00;
+  border-radius: 20px;
+  color: white;
+  border-color: black;
+  margin-top: 10px;
+}
+
+}
+
+@media only screen and (min-width: 360px) {
+
+}
+
+  
