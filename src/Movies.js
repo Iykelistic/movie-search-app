@@ -14,7 +14,7 @@ const MovieSearch = () => {
         setErrorMessage(null);
         page = 1;
   
-        fetch(`http://www.omdbapi.com/?s=${searchValue}&apikey=925d194f&page=${page}`)
+        fetch(`https://www.omdbapi.com/?s=${searchValue}&apikey=925d194f&page=${page}`)
           .then(response => response.json())
           .then(jsonResponse => {
             if (jsonResponse.Response === "True") {
@@ -34,7 +34,7 @@ const MovieSearch = () => {
                 setLoading(true);
                 setErrorMessage(null);
                 
-                fetch(`http://www.omdbapi.com/?s=${searchValue}&apikey=925d194f&page=${page}`).then(response => response.json()).then(jsonResponse=> {
+                fetch(`https://www.omdbapi.com/?s=${searchValue}&apikey=925d194f&page=${page}`).then(response => response.json()).then(jsonResponse=> {
                   if(jsonResponse.Response === "True") {
                     page++;
                     setMovies(prevMovies => [...prevMovies, ...jsonResponse.Search]);
