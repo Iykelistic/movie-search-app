@@ -25,10 +25,10 @@ export default function Landing() {
                     <p>Welcome to my movie search App!. Your number one trending App for movie search, 
                         don't worry, we are taking over Netflix!LOL.</p>
                     <div className="social">
-                        <a href="#"><i class="fa fa-facebook"></i></a>
-                        <a href="#"><i class="fa fa-twitter"></i></a>
-                        <a href="#"><i class="fa fa-instagram"></i></a>
-                        <a href="#"><i class="fa fa-youtube"></i></a>
+                        <a href="#"><i className="fa fa-facebook"></i></a>
+                        <a href="#"><i className="fa fa-twitter"></i></a>
+                        <a href="#"><i className="fa fa-instagram"></i></a>
+                        <a href="#"><i className="fa fa-youtube"></i></a>
                     </div>
                     </div>
                 </div>
@@ -36,15 +36,15 @@ export default function Landing() {
                     <h2>Address</h2>
                 <div className="content">
                     <div className="place">
-                    <i class="fa fa-map-marker" aria-hidden="true"></i>
+                    <i className="fa fa-map-marker" aria-hidden="true"></i>
                     <span className="text">Bucknor Estate, Isolo, Lagos</span>
                     </div>
                     <div className="phone">
-                    <i class="fa fa-phone" aria-hidden="true"></i>
+                    <i className="fa fa-phone" aria-hidden="true"></i>
                     <span className="text">01-27-3001</span>
                     </div>
                     <div className="email">
-                    <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                    <i className="fa fa-envelope-o" aria-hidden="true"></i>
                     <span className="text">info@moviesearch.com</span>
                     </div>
                 </div>
@@ -54,11 +54,11 @@ export default function Landing() {
                     <div className="content">
                         <form action="#">
                             <div className="email">
-                                <label className="text" htmlfor="email">Email *</label>
+                                <label className="text" htmlFor="email">Email *</label>
                                 <input type="email" id="email" required></input>
                             </div>
                             <div className="msg">
-                                <label className="text" htmlfor="message">Message *</label>
+                                <label className="text" htmlFor="message">Message *</label>
                                 <textarea name="name" rows="2" cols="25" id="message" required></textarea>
                             </div>
                             <div className="btn">
